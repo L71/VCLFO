@@ -1832,7 +1832,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="54.102" y="49.911" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="56.515" y="44.196" size="1.27" layer="25" ratio="10" rot="SR270"/>
 </element>
-<element name="LDR1" library="lb_devs" package="LDR_SNR2-3.0" value="PGM55xx 18-50k e-kit 40850005" x="64.77" y="27.94" smashed="yes" rot="R180">
+<element name="LDR1" library="lb_devs" package="LDR_SNR2-3.0" value="Token PGM5539" x="64.77" y="27.94" smashed="yes" rot="R180">
 <attribute name="MPN" value="PGM55xx" x="64.77" y="27.94" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="67.31" y="25.4" size="0.889" layer="25" ratio="11" rot="R180"/>
 <attribute name="VALUE" x="67.31" y="31.115" size="0.889" layer="27" ratio="11" rot="R180"/>
