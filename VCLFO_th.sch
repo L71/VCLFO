@@ -16799,6 +16799,9 @@ White 5mm flat-front LED 2180-3000mcd</text>
 <text x="25.4" y="215.9" size="1.778" layer="91">S2 - Salecom sw SKS07SP
 Mini toggle switch on-off-on
 Oscillator rate range selector</text>
+<text x="86.36" y="218.44" size="1.778" layer="91">Only one of C1 and C8 is needed. 
+(on board for different form factors)
+C8 needs to be bipolar type (if an electrolytic capacitor is used)</text>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="76.2" y="215.9" rot="R90"/>
