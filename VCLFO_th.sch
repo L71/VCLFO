@@ -16783,7 +16783,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C4" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="10u"/>
 <part name="C5" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="10u"/>
 <part name="C8" library="rcl" deviceset="C-US" device="025-050X050" value="10u"/>
-<part name="IC3" library="linear" deviceset="LM358" device="N"/>
+<part name="IC2" library="linear" deviceset="LM358" device="N"/>
 <part name="S3" library="switch" deviceset="TL36PO" device="" value="SKS04SP"/>
 </parts>
 <sheets>
@@ -16867,9 +16867,9 @@ C8 needs to be bipolar type (if an electrolytic capacitor is used)</text>
 <instance part="C4" gate="G$1" x="276.86" y="81.28"/>
 <instance part="C5" gate="G$1" x="276.86" y="68.58"/>
 <instance part="C8" gate="G$1" x="76.2" y="226.06" rot="R90"/>
-<instance part="IC3" gate="A" x="228.6" y="198.12"/>
-<instance part="IC3" gate="B" x="223.52" y="160.02"/>
-<instance part="IC3" gate="P" x="327.66" y="73.66"/>
+<instance part="IC2" gate="A" x="228.6" y="198.12"/>
+<instance part="IC2" gate="B" x="223.52" y="160.02"/>
+<instance part="IC2" gate="P" x="327.66" y="73.66"/>
 <instance part="S3" gate="BEF1" x="71.12" y="137.16" rot="R270"/>
 </instances>
 <busses>
@@ -17128,7 +17128,7 @@ C8 needs to be bipolar type (if an electrolytic capacitor is used)</text>
 <junction x="317.5" y="86.36"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="C4" gate="G$1" pin="+"/>
-<pinref part="IC3" gate="P" pin="V+"/>
+<pinref part="IC2" gate="P" pin="V+"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+12V"/>
@@ -17157,7 +17157,7 @@ C8 needs to be bipolar type (if an electrolytic capacitor is used)</text>
 <junction x="317.5" y="60.96"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="C5" gate="G$1" pin="-"/>
-<pinref part="IC3" gate="P" pin="V-"/>
+<pinref part="IC2" gate="P" pin="V-"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -17170,8 +17170,8 @@ C8 needs to be bipolar type (if an electrolytic capacitor is used)</text>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="160.02" x2="233.68" y2="160.02" width="0.1524" layer="91"/>
 <junction x="233.68" y="160.02"/>
-<pinref part="IC3" gate="B" pin="-IN"/>
-<pinref part="IC3" gate="B" pin="OUT"/>
+<pinref part="IC2" gate="B" pin="-IN"/>
+<pinref part="IC2" gate="B" pin="OUT"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -17205,8 +17205,8 @@ C8 needs to be bipolar type (if an electrolytic capacitor is used)</text>
 <wire x1="238.76" y1="198.12" x2="243.84" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="198.12" x2="238.76" y2="198.12" width="0.1524" layer="91"/>
 <junction x="238.76" y="198.12"/>
-<pinref part="IC3" gate="A" pin="-IN"/>
-<pinref part="IC3" gate="A" pin="OUT"/>
+<pinref part="IC2" gate="A" pin="-IN"/>
+<pinref part="IC2" gate="A" pin="OUT"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -17247,14 +17247,14 @@ C8 needs to be bipolar type (if an electrolytic capacitor is used)</text>
 <segment>
 <pinref part="SQR_LVL" gate="G$1" pin="S"/>
 <wire x1="210.82" y1="200.66" x2="220.98" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="+IN"/>
+<pinref part="IC2" gate="A" pin="+IN"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="TRI_LVL" gate="G$1" pin="S"/>
 <wire x1="215.9" y1="162.56" x2="205.74" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="B" pin="+IN"/>
+<pinref part="IC2" gate="B" pin="+IN"/>
 </segment>
 </net>
 <net name="N$12" class="0">
