@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19016,7 +19016,7 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 <part name="RATE" library="pot-alps" deviceset="POT_US" device="VERTICAL" value="10k"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="LED2" library="led" deviceset="LED" device="3MM"/>
+<part name="LED2" library="led" deviceset="LED" device="5MM"/>
 <part name="FRAME2" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="S2" library="switch" deviceset="TL39PO" device="" value="SKS07SP"/>
 <part name="SQR_OUT" library="thonkiconn" deviceset="WQP-PJ301M-12_JACK" device=""/>

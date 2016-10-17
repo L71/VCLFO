@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -159,7 +159,6 @@
 <text x="50.8" y="59.055" size="3.81" layer="21" font="vector" ratio="10" rot="SR180">VCLFO</text>
 <text x="31.75" y="59.055" size="1.016" layer="21" font="vector" ratio="10" rot="SR180">v2.1 20160811
 cc-by-sa 2016 Lars Bengtsson</text>
-<text x="3.81" y="26.67" size="1.016" layer="22" font="vector" ratio="1" rot="SMR90">VCLFO</text>
 <text x="21.59" y="22.86" size="1.016" layer="22" font="vector" ratio="10" rot="SMR90">cc-by-sa 2016 Lars Bengtsson</text>
 <wire x1="69.85" y1="59.69" x2="67.945" y2="59.69" width="0.254" layer="22"/>
 <text x="64.135" y="55.245" size="1.27" layer="22" font="vector" ratio="10" rot="SMR90">*RED
@@ -1446,33 +1445,6 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
 Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
 <packages>
-<package name="LED3MM">
-<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-3 mm, round</description>
-<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
-<wire x1="-1.524" y1="0" x2="-1.1708" y2="0.9756" width="0.1524" layer="51" curve="-39.80361"/>
-<wire x1="-1.524" y1="0" x2="-1.1391" y2="-1.0125" width="0.1524" layer="51" curve="41.633208"/>
-<wire x1="1.1571" y1="0.9918" x2="1.524" y2="0" width="0.1524" layer="51" curve="-40.601165"/>
-<wire x1="1.1708" y1="-0.9756" x2="1.524" y2="0" width="0.1524" layer="51" curve="39.80361"/>
-<wire x1="0" y1="1.524" x2="1.2401" y2="0.8858" width="0.1524" layer="21" curve="-54.461337"/>
-<wire x1="-1.2192" y1="0.9144" x2="0" y2="1.524" width="0.1524" layer="21" curve="-53.130102"/>
-<wire x1="0" y1="-1.524" x2="1.203" y2="-0.9356" width="0.1524" layer="21" curve="52.126876"/>
-<wire x1="-1.203" y1="-0.9356" x2="0" y2="-1.524" width="0.1524" layer="21" curve="52.126876"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90"/>
-<wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="51" curve="90"/>
-<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.1524" layer="51" curve="90"/>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215"/>
-<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701"/>
-<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="LED5MM">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
 5 mm, round</description>
@@ -1964,7 +1936,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="27.94" y="49.6316" size="1.016" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="27.2034" y="56.5404" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="LED2" library="led" package="LED3MM" value="" x="63.5" y="25.4" smashed="yes" rot="R90">
+<element name="LED2" library="led" package="LED5MM" value="" x="63.5" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="65.405" y="23.241" size="1.016" layer="25" ratio="10"/>
 <attribute name="VALUE" x="65.151" y="27.305" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
